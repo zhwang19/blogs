@@ -4,3 +4,4 @@
 ```
 git reset --soft HEAD~
 ```
+![](../images/repository.png)
