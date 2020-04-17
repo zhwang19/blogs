@@ -16,6 +16,7 @@ reset命令有三个选项：
 ```
 git reset --[mixed][soft][hard] HEAD~/snapshot_id
 ```
+<<<<<<< HEAD
 HEAD\~表示会提到HEAD指针会回退到上个版本，想退几个版本就加几个\~，或者只用一个\~，但是后面跟想回退版本的次数
 也可以直接使用git log查看版本id，通过版本id精确回退
 这里需要注意的是，虽然回滚版本的时候用的是HEAD，但是修改指针的时候是HEAD和master一起修改了，这一点很重要，详细看reset和checkout分支命令的区别
